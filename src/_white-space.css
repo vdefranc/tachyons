@@ -13,12 +13,6 @@
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
 
-@media (--breakpoint-not-small) {
-  .ws-normal-ns { white-space: normal; }
-  .nowrap-ns { white-space: nowrap; }
-  .pre-ns { white-space: pre; }
-}
-
 @media (--breakpoint-medium) {
   .ws-normal-m { white-space: normal; }
   .nowrap-m { white-space: nowrap; }
