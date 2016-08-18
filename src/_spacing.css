@@ -1,6 +1,7 @@
 /* Variables */
 
 /* Spacing Scale - based on a ratio of 1:2 */
+
 :root {
   --spacing-none: 0;
   --spacing-extra-small: .25rem;
@@ -11,12 +12,6 @@
   --spacing-extra-extra-large: 8rem;
   --spacing-extra-extra-extra-large: 16rem;
 }
-
-/* Media Queries */
-
-@custom-media --breakpoint-not-small screen and (min-width: 48em);
-@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
-@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
    SPACING
