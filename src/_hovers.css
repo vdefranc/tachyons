@@ -20,13 +20,12 @@
   opacity: 1;
   transition: opacity .15s ease-in;
 }
-.dim:hover,
-.dim:focus {
-  opacity: .5;
+.dim:hover {
+  opacity: .65;
   transition: opacity .15s ease-in;
 }
 .dim:active {
-  opacity: .8; transition: opacity .15s ease-out;
+  opacity: .85; transition: opacity .15s ease-out;
 }
 
 /*
