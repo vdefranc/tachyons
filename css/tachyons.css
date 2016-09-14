@@ -278,7 +278,7 @@ img { max-width: 100%; }
      -l  = large
 
 */
-.ba, .arc-card { border-style: solid; border-width: 1px; }
+.ba, .arc-card, input { border-style: solid; border-width: 1px; }
 .bt { border-top-style: solid; border-top-width: 1px; }
 .br { border-right-style: solid; border-right-width: 1px; }
 .bb, .arc-card__header { border-bottom-style: solid; border-bottom-width: 1px; }
@@ -309,13 +309,14 @@ img { max-width: 100%; }
 .b--arc-green { border-color: #5fc17c; }
 .b--arc-red { border-color: #e25252; }
 .b--arc-black { border-color: #2f2f2f; }
+.b--moon-gray, input { border-color: #ccc; }
 .b--black { border-color: #000; }
 .b--near-black { border-color: #111; }
 .b--dark-gray { border-color: #333; }
 .b--mid-gray { border-color: #555; }
 .b--gray { border-color: #777; }
 .b--silver { border-color: #999; }
-.b--light-silver { border-color: #aaa; }
+.b--light-silver, input:focus { border-color: #aaa; }
 .b--light-gray { border-color: #eee; }
 .b--near-white { border-color: #f4f4f4; }
 .b--white { border-color: #fff; }
@@ -393,7 +394,7 @@ img { max-width: 100%; }
 */
 .br0 { border-radius: 0; }
 .br1, .arc-card { border-radius: .125rem; }
-.br2 { border-radius: .25rem; }
+.br2, input { border-radius: .25rem; }
 .br3 { border-radius: .5rem; }
 .br4 { border-radius: 1rem; }
 .br-100 { border-radius: 100%; }
@@ -987,7 +988,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .arc-light-blue { color: #5eb3eb; }
 .arc-green { color: #5fc17c; }
 .arc-red { color: #e25252; }
-.arc-black, .arc-card { color: #2f2f2f; }
+.arc-black, .arc-card, input { color: #2f2f2f; }
 .hover-arc-light-blue:hover, .arc-link:hover { color: #5eb3eb; }
 .bg-arc-dark-blue { background-color: #2d3e4a; }
 .bg-arc-blue { background-color: #46a1dc; }
@@ -1227,7 +1228,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pt6 { padding-top: 8rem; }
 .pt7 { padding-top: 16rem; }
 .pv0 { padding-top: 0; padding-bottom: 0; }
-.pv1 { padding-top: .25rem; padding-bottom: .25rem; }
+.pv1, input { padding-top: .25rem; padding-bottom: .25rem; }
 .pv2 { padding-top: .5rem; padding-bottom: .5rem; }
 .pv3 { padding-top: 1rem; padding-bottom: 1rem; }
 .pv4 { padding-top: 2rem; padding-bottom: 2rem; }
@@ -1236,7 +1237,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pv7 { padding-top: 16rem; padding-bottom: 16rem; }
 .ph0 { padding-left: 0; padding-right: 0; }
 .ph1 { padding-left: .25rem; padding-right: .25rem; }
-.ph2 { padding-left: .5rem; padding-right: .5rem; }
+.ph2, input { padding-left: .5rem; padding-right: .5rem; }
 .ph3 { padding-left: 1rem; padding-right: 1rem; }
 .ph4 { padding-left: 2rem; padding-right: 2rem; }
 .ph5 { padding-left: 4rem; padding-right: 4rem; }
@@ -1674,6 +1675,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .arc-subheading { font-family: 'Open Sans'; font-weight: 600; }
 .arc-copy { font-family: 'Open Sans', sans-serif; }
 .arc-link { font-family: 'Open Sans'; }
+input { font-family: 'Open Sans', sans-serif; }
+input:focus { outline: none; box-shadow: 0 1px 4px 1px rgba( 0, 0, 0, .2 ); }
 /* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
 @media screen and (min-width: 30em) {
