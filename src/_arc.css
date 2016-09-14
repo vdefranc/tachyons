@@ -1,9 +1,5 @@
 /* ARC STUFF HERE */
 
-.help {
-    color: teal;
-}
-
 .arc-dosis {
     font-family: 'Dosis', sans-serif;
 }
@@ -51,7 +47,7 @@
     @extend .hover-arc-light-blue;
 }
 
-input {
+.arc-input {
     @extend .arc-sans;
     @extend .br2;
     @extend .ba;
@@ -61,7 +57,7 @@ input {
     @extend .b--moon-gray;
 }
 
-input:focus {
+.arc-input:focus {
     outline: none;
     box-shadow: 0px 1px 4px 1px rgba( 0, 0, 0, 0.2 );
     @extend .b--light-silver;
