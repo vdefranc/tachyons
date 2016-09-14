@@ -17,6 +17,16 @@
 
 */
 
+
+/* arc colors */
+
+.b--arc-dark-blue { border-color: var(--arc-dark-blue); }
+.b--arc-blue { border-color: var(--arc-blue); }
+.b--arc-light-blue { border-color: var(--arc-light-blue); }
+.b--arc-green { border-color: var(--arc-green); }
+.b--arc-red { border-color: var(--arc-red); }
+.b--arc-black { border-color: var(--arc-black); }
+
 .b--black {        border-color: var(--black); }
 .b--near-black {   border-color: var(--near-black); }
 .b--dark-gray {    border-color: var(--dark-gray); }

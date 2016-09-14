@@ -8,15 +8,15 @@
 
 /* arc colors */
 .arc-dark-blue { color: var(--arc-dark-blue); }
-.arc-primary { color: var(--arc-blue); }
-.arc-light-primary { color: var(--arc-light-blue); }
+.arc-blue { color: var(--arc-blue); }
+.arc-light-blue { color: var(--arc-light-blue); }
 .arc-green { color: var(--arc-green); }
 .arc-red { color: var(--arc-red); }
 .arc-black { color: var(--arc-black); }
 
 .bg-arc-dark-blue { background-color: var(--arc-dark-blue); }
-.bg-arc-primary { background-color: var(--arc-blue); }
-.bg-arc-light-primary { background-color: var(--arc-light-blue); }
+.bg-arc-blue { background-color: var(--arc-blue); }
+.bg-arc-light-blue { background-color: var(--arc-light-blue); }
 .bg-arc-green { background-color: var(--arc-green); }
 .bg-arc-red { background-color: var(--arc-red); }
 .bg-arc-black { background-color: var(--arc-black); }

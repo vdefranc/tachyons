@@ -310,6 +310,13 @@ img { max-width: 100%; }
    --color-name = each color variable name is also a border color name
 
 */
+/* arc colors */
+.b--arc-dark-blue { border-color: #2d3e4a; }
+.b--arc-blue { border-color: #46a1dc; }
+.b--arc-light-blue { border-color: #5eb3eb; }
+.b--arc-green { border-color: #5fc17c; }
+.b--arc-red { border-color: #e25252; }
+.b--arc-black { border-color: #2f2f2f; }
 .b--black { border-color: #000; }
 .b--near-black { border-color: #111; }
 .b--dark-gray { border-color: #333; }
@@ -984,14 +991,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 /* arc colors */
 .arc-dark-blue { color: #2d3e4a; }
-.arc-primary { color: ##46a1dc; }
-.arc-light-primary { color: #5eb3eb; }
+.arc-blue { color: #46a1dc; }
+.arc-light-blue { color: #5eb3eb; }
 .arc-green { color: #5fc17c; }
 .arc-red { color: #e25252; }
 .arc-black { color: #2f2f2f; }
 .bg-arc-dark-blue { background-color: #2d3e4a; }
-.bg-arc-primary { background-color: ##46a1dc; }
-.bg-arc-light-primary { background-color: #5eb3eb; }
+.bg-arc-blue { background-color: #46a1dc; }
+.bg-arc-light-blue { background-color: #5eb3eb; }
 .bg-arc-green { background-color: #5fc17c; }
 .bg-arc-red { background-color: #e25252; }
 .bg-arc-black { background-color: #2f2f2f; }
