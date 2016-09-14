@@ -11,6 +11,16 @@
 */
 
 :root {
+
+  /* Arc colors */
+
+  --arc-dark-blue: #2D3E4A;
+  --arc-blue: ##46A1DC;
+  --arc-light-blue: #5EB3EB;
+  --arc-green: #5fc17c;
+  --arc-red: #E25252;
+  --arc-black: #2F2F2F;
+
   --black: #000;
   --near-black: #111;
   --dark-gray:#333;
