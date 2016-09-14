@@ -1,0 +1,43 @@
+/* ARC STUFF HERE */
+
+.help {
+    color: teal;
+}
+
+.arc-card {
+    border-color: #c6c6c6;
+    @extend .pa3;
+    @extend .ba;
+    @extend .br1;
+    @extend .arc-black;
+}
+
+.arc-card__header {
+    @extend .bb;
+    @extend .pb1;
+    border-color: #e3e3e3;
+}
+
+.arc-heading {
+    @extend .ma0;
+    font-family: 'Dosis';
+    font-weight: 200;
+}
+
+.arc-subheading {
+    @extend .mv1;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    @extend .ttu;
+}
+
+.arc-copy {
+    @extend .lh-title;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.arc-link {
+    font-family: 'Open Sans';
+    @extend .arc-blue;
+    @extend .hover-arc-light-blue;
+}

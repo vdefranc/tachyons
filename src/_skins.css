@@ -14,6 +14,8 @@
 .arc-red { color: var(--arc-red); }
 .arc-black { color: var(--arc-black); }
 
+.hover-arc-light-blue:hover { color: var(--arc-light-blue); }
+
 .bg-arc-dark-blue { background-color: var(--arc-dark-blue); }
 .bg-arc-blue { background-color: var(--arc-blue); }
 .bg-arc-light-blue { background-color: var(--arc-light-blue); }
