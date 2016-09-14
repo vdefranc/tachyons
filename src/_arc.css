@@ -4,6 +4,14 @@
     color: teal;
 }
 
+.arc-dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.arc-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .arc-card {
     border-color: #c6c6c6;
     @extend .pa3;
@@ -20,30 +28,30 @@
 
 .arc-heading {
     @extend .ma0;
-    font-family: 'Dosis';
+    @extend .arc-dosis;
     font-weight: 200;
 }
 
 .arc-subheading {
     @extend .mv1;
-    font-family: 'Open Sans';
+    @extend .arc-sans;
     font-weight: 600;
     @extend .ttu;
 }
 
 .arc-copy {
     @extend .lh-title;
-    font-family: 'Open Sans', sans-serif;
+    @extend .arc-sans;
 }
 
 .arc-link {
-    font-family: 'Open Sans';
+    @extend .arc-sans;
     @extend .arc-blue;
     @extend .hover-arc-light-blue;
 }
 
 input {
-    font-family: 'Open Sans', sans-serif;
+    @extend .arc-sans;
     @extend .br2;
     @extend .ba;
     @extend .ph2;
