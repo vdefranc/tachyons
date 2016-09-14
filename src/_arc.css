@@ -45,6 +45,7 @@
 }
 
 .arc-link {
+    @extend .no-underline;
     @extend .arc-sans;
     @extend .arc-blue;
     @extend .hover-arc-light-blue;

@@ -1321,7 +1321,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 .strike { text-decoration: line-through; }
 .underline { text-decoration: underline; }
-.no-underline { text-decoration: none; }
+.no-underline, .arc-link { text-decoration: none; }
 /*
 
   TEXT ALIGN
